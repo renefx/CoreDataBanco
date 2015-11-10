@@ -61,8 +61,8 @@
 		29EF74D11BB4D144004C36BA /* Cliente+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cliente+CoreDataProperties.m"; sourceTree = "<group>"; };
 		29EF74D21BB4D144004C36BA /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
 		29EF74D31BB4D144004C36BA /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
-		29EF74D61BB4D327004C36BA /* Cliente+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Cliente+CoreDataProperties.h"; path = "CoreDataBanco/Cliente+CoreDataProperties.h"; sourceTree = "<group>"; };
-		29EF74D71BB4D327004C36BA /* Cliente+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Cliente+CoreDataProperties.m"; path = "CoreDataBanco/Cliente+CoreDataProperties.m"; sourceTree = "<group>"; };
+		29EF74D61BB4D327004C36BA /* Cliente+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cliente+CoreDataProperties.h"; sourceTree = "<group>"; };
+		29EF74D71BB4D327004C36BA /* Cliente+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cliente+CoreDataProperties.m"; sourceTree = "<group>"; };
 		F5DE9E2E1BEACA95006EB21A /* NovoBancoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovoBancoViewController.h; sourceTree = "<group>"; };
 		F5DE9E2F1BEACA95006EB21A /* NovoBancoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovoBancoViewController.m; sourceTree = "<group>"; };
 		F5DE9E341BEACEC0006EB21A /* Banco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Banco.h; path = CoreDataModel/Banco.h; sourceTree = "<group>"; };
@@ -92,8 +92,6 @@
 		297D7F431BAAF7C100AC4EDB = {
 			isa = PBXGroup;
 			children = (
-				29EF74D61BB4D327004C36BA /* Cliente+CoreDataProperties.h */,
-				29EF74D71BB4D327004C36BA /* Cliente+CoreDataProperties.m */,
 				297D7F4E1BAAF7C100AC4EDB /* CoreDataBanco */,
 				297D7F6B1BAAF7C100AC4EDB /* CoreDataBancoTests */,
 				297D7F4D1BAAF7C100AC4EDB /* Products */,
@@ -112,6 +110,8 @@
 		297D7F4E1BAAF7C100AC4EDB /* CoreDataBanco */ = {
 			isa = PBXGroup;
 			children = (
+				29EF74D61BB4D327004C36BA /* Cliente+CoreDataProperties.h */,
+				29EF74D71BB4D327004C36BA /* Cliente+CoreDataProperties.m */,
 				F5DE9E341BEACEC0006EB21A /* Banco.h */,
 				F5DE9E351BEACEC0006EB21A /* Banco.m */,
 				29EF74D01BB4D144004C36BA /* Cliente+CoreDataProperties.h */,
