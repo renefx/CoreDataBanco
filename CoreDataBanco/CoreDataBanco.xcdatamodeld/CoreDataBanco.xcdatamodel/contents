@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A389" minimumToolsVersion="Automatic">
+    <entity name="Banco" representedClassName="Banco" syncable="YES">
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numero" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clientes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Cliente" inverseName="banco" inverseEntity="Cliente" syncable="YES"/>
+    </entity>
+    <entity name="Cliente" representedClassName="Cliente" syncable="YES">
+        <attribute name="cpf" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="banco" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Banco" inverseName="clientes" inverseEntity="Banco" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Banco" positionX="1809" positionY="-1722" width="128" height="90"/>
+        <element name="Cliente" positionX="2140" positionY="-1702" width="128" height="88"/>
+    </elements>
+</model>
